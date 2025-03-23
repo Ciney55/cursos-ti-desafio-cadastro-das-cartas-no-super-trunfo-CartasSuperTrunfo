@@ -17,9 +17,16 @@ float super poder
 divisão (/)
 */
 
+/*
+soma (+)
+*/
+
+
 densidade populacional = população / área em km2
 
 pib per capita = pib / população 
+
+super poder = população + Área em km2 + pib + número de pontos turisticos + densidade populacional + pib per capita ;
 
 // carta 1
 
@@ -55,6 +62,8 @@ printf("densidade populacional: %.2f\n", densidade populacional);
 
 printf("pib per capita: %.2f\n", pib per capita);
 
+printf("super poder: %d\n", super poder);
+
 // carta 2
 
 printf("adicione estado\n");
@@ -88,6 +97,8 @@ printf("numero de pontos turisticos: %d\n,"numero de pontos turisticos);
 printf("densidade populacional: %.2f\n", densidade populacional);
 
 printf("pib per capita: %.2f\n", pib per capita);
+
+printf("super poder: %d\n", super poder);
 
 return 0;
 
