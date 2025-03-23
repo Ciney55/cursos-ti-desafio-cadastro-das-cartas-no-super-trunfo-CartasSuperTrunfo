@@ -11,6 +11,7 @@ float pib
 int número de pontos turisticos
 float densidade populacional 
 float pib per capita 
+float super poder
 
 /*
 divisão (/)
@@ -21,7 +22,6 @@ densidade populacional = população / área em km2
 pib per capita = pib / população 
 
 // carta 1
-
 
 printf("adicione Estado\n");
 scanf("%d,"&estado);
