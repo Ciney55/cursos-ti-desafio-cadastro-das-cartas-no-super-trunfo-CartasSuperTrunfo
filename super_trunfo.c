@@ -100,6 +100,17 @@ printf("pib per capita: %.2f\n", pib per capita);
 
 printf("super poder: %d\n", super poder);
 
+// carta 1 vs carta 2 //
+
+printf("população: carta 1 > carta 2 : %d\n", carta 1 > carta 2);
+printf("area em km2: carta 1 > carta 2 : %d\n", carta 1 > carta 2);
+printf("pib: carta 1 > carta 2 : %d\n", carta 1 > carta2);
+print("número de pontos turísticos: carta 1 > carta 2 : %d\n", carta 1 > carta 2);
+printf("densidade populacional: carta 1 > carta 2: %d\n", carta 1 > carta 2);
+printf("pib per capita: carta 1 > carta 2 : %d\n", carta 1 > carta 2);
+printf("super poder: carta 1 > carta 2 : %d\n", carta 1 > carta 2);
+
+
 return 0;
 
 }
