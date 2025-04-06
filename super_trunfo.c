@@ -30,6 +30,9 @@ super poder = população + Área em km2 + pib + número de pontos turisticos + 
 
 // carta 1
 
+população carta 1 = 11,451,999;
+
+
 printf("adicione Estado\n");
 scanf("%d,"&estado);
 printf("estado: %d\n," estado);
@@ -65,6 +68,9 @@ printf("pib per capita: %.2f\n", pib per capita);
 printf("super poder: %d\n", super poder);
 
 // carta 2
+
+população carta 2 = 10,576,773;
+
 
 printf("adicione estado\n");
 scanf("%d,"&estado);
@@ -110,6 +116,11 @@ printf("densidade populacional: carta 1 > carta 2: %d\n", carta 1 > carta 2);
 printf("pib per capita: carta 1 > carta 2 : %d\n", carta 1 > carta 2);
 printf("super poder: carta 1 > carta 2 : %d\n", carta 1 > carta 2);
 
+if (população carta 1 > população carta 2 ){
+   printf("carta 1 venceu\n");
+} else {
+  printf("carta 2 venceu\n");
+}
 
 return 0;
 
